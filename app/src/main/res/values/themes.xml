@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SeekbarTest" parent="Theme.AppCompat.DayNight.NoActionBar" />
+
+    <style name="BrightnessSeekBarStyle" parent="CustomStabilizerSeekBarStyle">
+        <item name="android:splitTrack">false</item>
+    </style>
+
+    <style name="LightToneSeekBarStyle" parent="BrightnessSeekBarStyle">
+        <item name="android:progressDrawable">@drawable/progress_bg</item>
+    </style>
+
+    <style name="CustomStabilizerSeekBarStyle" parent="Widget.AppCompat.SeekBar">
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:thumbOffset">16dp</item>
+    </style>
+
+</resources>
